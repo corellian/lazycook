@@ -1,4 +1,75 @@
-Lazy Cook Website
-=================
+Introduction
+============
 
-Nothing to see here, yet.
+The website is intended for all of those people who have to cook every day, 
+loves the good cuisine, but with no time to think what to cook with the
+available ingredients at home.
+
+The point here is to give the maximum importance to the available ingredients
+and time.
+
+Model entities
+==============
+
+Recipe
+------
+Title
+Description
+Photo
+Author
+Rating
+Date
+Preparation time
+Cooking time
+Diners
+Difficulty?
+
+Recipe Step
+-----------
+Text
+Step Nº
+Recipe
+
+Recipe Comment
+--------------
+Text
+Author
+Date
+Rating
+Category
+Recipe
+
+Category
+--------
+Name
+Description
+
+Ingredient
+----------
+Name
+Photo
+Ingredient Category
+
+Ingredient Category
+-------------------
+Name
+
+Recipe Ingredients
+------------------
+Ingredient
+Recipe
+Quantity/Measure
+Units
+
+Grocery List
+------------
+Ingredient
+Quantity/Measure
+Units
+
+Pantry/Fridge
+-------------
+User
+Ingredient
+Quantity/Measure
+Units
