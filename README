@@ -8,6 +8,18 @@ available ingredients at home.
 The point here is to give the maximum importance to the available ingredients
 and time.
 
+
+Development Database
+====================
+
+An SQLite database has been created (db.sqlite) for development puroposes.  
+
+The Superuser account is:
+
+Username: admin
+Password: test
+
+
 Model entities
 ==============
 
