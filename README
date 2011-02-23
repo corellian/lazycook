@@ -16,7 +16,7 @@ Recipe
 Title
 Description
 Photo
-Author
+Author (FK)
 Rating
 Date
 Preparation time
@@ -28,27 +28,27 @@ Recipe Step
 -----------
 Text
 Step Nº
-Recipe
+Photo
+Recipe (FK)
 
 Recipe Comment
 --------------
 Text
-Author
+Author (FK)
 Date
 Rating
-Category
-Recipe
+Recipe (FK)
 
 Category
 --------
 Name
-Description
+Description 
 
 Ingredient
 ----------
 Name
 Photo
-Ingredient Category
+Ingredient Category (FK)
 
 Ingredient Category
 -------------------
@@ -57,19 +57,24 @@ Name
 Recipe Ingredients
 ------------------
 Ingredient
-Recipe
+Recipe (FK)
 Quantity/Measure
-Units
+Units (FK)
 
 Grocery List
 ------------
-Ingredient
+Ingredient (FK)
 Quantity/Measure
-Units
+Units (FK)
 
 Pantry/Fridge
 -------------
-User
-Ingredient
+User (FK)
+Ingredient (FK)
 Quantity/Measure
-Units
+Units (FK)
+
+Unit
+----
+Name
+
