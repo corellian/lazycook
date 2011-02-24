@@ -1,1 +1,3 @@
 Django
+oauth
+-e git+https://github.com/uswaretech/Django-Socialauth#egg=Django-Socialauth
