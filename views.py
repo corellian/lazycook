@@ -2,7 +2,7 @@
 # LazyCook
 # Copyright (c) 2011 Sporetree.com
 #
-from django.http import HttpResponse
+from django.shortcuts import render_to_response
 
 def home(request):
-    return HttpResponse("Who are you calling a lazy cook?!");
+    return render_to_response('base.html')
