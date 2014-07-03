@@ -1,3 +1,4 @@
+﻿{% load staticfiles %}
 <!doctype html>
 
 <!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
@@ -17,8 +18,8 @@
   <link rel="shortcut icon" href="/favicon.ico">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-  <link rel="stylesheet" href="{{STATIC_URL}}css/style.css?v=2">
-  <script src="{{STATIC_URL}}js/libs/modernizr-1.6.min.js"></script>
+  <link rel="stylesheet" href="{% static 'css/style.css' %}?v=2">
+  <script src="{% static "js/libs/modernizr-1.6.min.js" %}"></script>
 
  </head>
 
@@ -44,8 +45,8 @@
 
 
   <!-- scripts concatenated and minified via ant build script-->
-  <script src="{{STATIC_URL}}js/plugins.js"></script>
-  <script src="{{STATIC_URL}}js/script.js"></script>
+  <script src="{% static "js/plugins.js" %}"></script>
+  <script src="{% static "js/script.js" %}"></script>
   <!-- end concatenated and minified scripts-->
 
 
@@ -55,8 +56,8 @@
   <![endif]-->
 
   <!-- yui profiler and profileviewer - remove for production -->
-  <script src="{{STATIC_URL}}js/profiling/yahoo-profiling.min.js"></script>
-  <script src="{{STATIC_URL}}js/profiling/config.js"></script>
+  <script src="{% static "js/profiling/yahoo-profiling.min.js" %}"></script>
+  <script src="{% static "js/profiling/config.js" %}"></script>
   <!-- end profiling code -->
 
 

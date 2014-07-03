@@ -1,3 +1,4 @@
-Django
-oauth
--e git+https://github.com/uswaretech/Django-Socialauth#egg=Django-Socialauth
+Django==1.6.5
+-e git+https://github.com/uswaretech/Django-Socialauth@1e22872606aa0cdd124eceacdc8db81f9abd9bd5#egg=django_socialauth-master
+oauth==1.0.1
+wsgiref==0.1.2
