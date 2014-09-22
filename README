@@ -8,9 +8,17 @@ available ingredients at home.
 The point here is to give the maximum importance to the available ingredients
 and time.
 
+Application Design Draft
+========================
 
-Model entities
-==============
+The entry point of the application should be a place where the user can search
+for recipes selecting some ingredients and/or some keywords. The application
+will show the best matching recipes. Initially, when the user has not searched
+anything, the application will show the latest recipes on one column, and the
+most popular ones on another column.
+
+Model
+=====
 
 Recipe
 ------
@@ -28,7 +36,7 @@ Difficulty?
 Recipe Step
 -----------
 Text
-Step Nº
+Step Num
 Photo
 Recipe (FK)
 
@@ -48,12 +56,14 @@ Description
 Ingredient
 ----------
 Name
+Description
 Photo
 Ingredient Category (FK)
 
 Ingredient Category
 -------------------
 Name
+Description
 
 Recipe Ingredients
 ------------------
@@ -78,4 +88,6 @@ Units (FK)
 Unit
 ----
 Name
+Symbol
+Type (length, weight...)
 
